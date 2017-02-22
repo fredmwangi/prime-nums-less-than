@@ -5,9 +5,9 @@ public class primeNumsLessThan
 {
   public static void main(String[] args)
   {
-  	int Prime;
-  	List<Integer> list = new ArrayList<>();
-  	boolean prime;
+    int Prime;
+    List<Integer> list = new ArrayList<>();
+    boolean prime;
     
     for(int i=2;i<100;i++)
     {
