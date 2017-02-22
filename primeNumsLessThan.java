@@ -11,17 +11,15 @@ public class primeNumsLessThan
     
     for(int i=2;i<100;i++)
     {
-    	prime = true;
-    	
+    	prime = true;  
       	for(int k=2;k<i;k++)
         {
         	if(i%k==0)
-            {
+          {
             	prime = false;
             	break;
         	}
         }
-      	
       	if(prime==true)
         {
       		list.add(i);
