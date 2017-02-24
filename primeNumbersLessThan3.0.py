@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 
-number = input("Enter an integer: ")
+number = int(input("Enter an integer: "))
 prime = True
 primeNumbers = []
 
